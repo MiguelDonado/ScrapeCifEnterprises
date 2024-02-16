@@ -31,3 +31,15 @@ The project requires the following Python libraries:
 - `os`: For interacting with the operating system.
 - `tkinter`: For rendering a warning message to the user.
 - `time`: For pausing execution between requests.
+- `python-dotenv`: For loading enviroment variables.
+
+## Environment Variables
+
+This project uses environment variables for configuration. These are the environment variables used:
+
+- `URL_FIRST`: This is the first part of the URL used to fetch the CIF of the enterprises. 
+- `URL_SECOND`: This is the second part of the URL used to fetch the CIF of the enterprises. 
+
+### Setting Environment Variables
+
+Environment variables can be set in a `.env` file in the root directory of the project. This file should not be committed to version control.
